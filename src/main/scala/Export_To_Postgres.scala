@@ -11,7 +11,7 @@ object Export_To_Postgres {
     val masterDF = spark.read
       .option("header", "true")
       .option("inferSchema", "true")
-      .csv("C:\\Users\\dimahend\\Downloads\\intellij Projects\\CropYieldPipeline\\src\\main\\resources\\data\\gold\\crop_yield_v8_csv\\part-00000-1a8020c1-9b81-41a7-a4c0-705932c940ce-c000.csv")
+      .csv("C:\\Users\\dimahend\\Downloads\\intellij Projects\\spark-scala-cropYield\\src\\main\\resources\\data\\gold\\crop_yield_v8_csv\\goldfinal.csv")
 
     masterDF.write
       .format("jdbc")
