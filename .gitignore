@@ -28,6 +28,5 @@ Thumbs.db
 *.log
 *.tmp
 
-# === Plot Outputs ===
-src/plots/*.png
+
 
