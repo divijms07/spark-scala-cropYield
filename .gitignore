@@ -3,3 +3,31 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# === Data Files ===
+*.csv
+*.parquet
+
+# === SBT Build Artifacts ===
+target/
+project/target/
+project/project/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+
+# === VS Code (if used) ===
+.vscode/
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+
+# === Logs and Temp Files ===
+*.log
+*.tmp
+
+# === Plot Outputs ===
+src/plots/*.png
+
